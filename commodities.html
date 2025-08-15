@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Commodity Tracker</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+<div class="container">
+
+  <div class="topbar">
+    <a class="back" href="index.html">← 戻る</a>
+    <h2>CommodityTracker</h2>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="label">Gold (GC=F)</div><div id="gold" class="val">-</div></div>
+    <div class="kpi"><div class="label">Crude Oil WTI (CL=F)</div><div id="oil" class="val">-</div></div>
+    <div class="kpi"><div class="label">Silver (SI=F)</div><div id="silver" class="val">-</div></div>
+    <div class="kpi"><div class="label">Natural Gas (NG=F)</div><div id="gas" class="val">-</div></div>
+  </div>
+
+  <div id="cmdList" class="list"></div>
+
+  <div class="footer">
+    Built for Vercel demo · Data from CoinGecko and Yahoo Finance (unofficial).
+  </div>
+</div>
+<script src="js/common.js"></script>
+</body>
+</html>
