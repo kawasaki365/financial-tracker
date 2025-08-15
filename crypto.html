@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Crypto Tracker</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+<div class="container">
+
+  <div class="topbar">
+    <a class="back" href="index.html">← 戻る</a>
+    <h2>CryptoTracker</h2>
+    <div class="search"><input id="searchCrypto" placeholder="銘柄検索（例: btc, eth）"/></div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="label">総時価総額 (Top10)</div><div id="cap" class="val">-</div></div>
+    <div class="kpi"><div class="label">24h 出来高 (Top10)</div><div id="vol" class="val">-</div></div>
+    <div class="kpi"><div class="label">平均24h変動率 (Top10)</div><div id="avgchg" class="val">-</div></div>
+    <div class="kpi"><div class="label">更新</div><div id="updated" class="val">-</div></div>
+  </div>
+
+  <div id="cryptoList" class="list"></div>
+
+  <div class="footer">
+    Built for Vercel demo · Data from CoinGecko and Yahoo Finance (unofficial).
+  </div>
+</div>
+<script src="js/common.js"></script>
+</body>
+</html>
