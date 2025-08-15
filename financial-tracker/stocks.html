@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Stock Tracker</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+<div class="container">
+
+  <div class="topbar">
+    <a class="back" href="index.html">← 戻る</a>
+    <h2>StockTracker</h2>
+    <div class="search">
+      <input id="stockInput" placeholder="ティッカー追加 (例: TSLA, AAPL)"/>
+      <button class="action" id="addStock">追加</button>
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="kpi"><div class="label">監視銘柄数</div><div id="watchCount" class="val">0</div></div>
+    <div class="kpi"><div class="label">市場指数 (S&P500)</div><div id="spxVal" class="val">-</div></div>
+    <div class="kpi"><div class="label">NASDAQ</div><div id="ndxVal" class="val">-</div></div>
+    <div class="kpi"><div class="label">更新</div><div id="updated" class="val">-</div></div>
+  </div>
+
+  <div id="stockList" class="list"></div>
+
+  <div class="footer">
+    Built for Vercel demo · Data from CoinGecko and Yahoo Finance (unofficial).
+  </div>
+</div>
+<script src="js/common.js"></script>
+</body>
+</html>
