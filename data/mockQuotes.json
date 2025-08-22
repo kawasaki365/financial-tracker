@@ -1,0 +1,95 @@
+{
+  "quoteResponse": {
+    "result": [
+      {
+        "symbol": "TSLA",
+        "shortName": "Tesla Inc.",
+        "regularMarketPrice": 700.3,
+        "regularMarketChangePercent": -0.5,
+        "marketCap": 700000000000,
+        "regularMarketDayLow": 695,
+        "regularMarketDayHigh": 710,
+        "regularMarketPreviousClose": 703,
+        "exchange": "NasdaqGS"
+      },
+      {
+        "symbol": "AAPL",
+        "shortName": "Apple Inc.",
+        "regularMarketPrice": 150.25,
+        "regularMarketChangePercent": 1.2,
+        "marketCap": 2000000000000,
+        "regularMarketDayLow": 149.5,
+        "regularMarketDayHigh": 151,
+        "regularMarketPreviousClose": 149,
+        "exchange": "NasdaqGS"
+      },
+      {
+        "symbol": "MSFT",
+        "shortName": "Microsoft Corp.",
+        "regularMarketPrice": 280.1,
+        "regularMarketChangePercent": 0.8,
+        "marketCap": 2100000000000,
+        "regularMarketDayLow": 278,
+        "regularMarketDayHigh": 282,
+        "regularMarketPreviousClose": 278.5,
+        "exchange": "NasdaqGS"
+      },
+      {
+        "symbol": "GOOGL",
+        "shortName": "Alphabet Inc.",
+        "regularMarketPrice": 2700.5,
+        "regularMarketChangePercent": -0.2,
+        "marketCap": 1800000000000,
+        "regularMarketDayLow": 2690,
+        "regularMarketDayHigh": 2725,
+        "regularMarketPreviousClose": 2705,
+        "exchange": "NasdaqGS"
+      },
+      {
+        "symbol": "AMZN",
+        "shortName": "Amazon.com Inc.",
+        "regularMarketPrice": 3300.7,
+        "regularMarketChangePercent": 0.3,
+        "marketCap": 1650000000000,
+        "regularMarketDayLow": 3280,
+        "regularMarketDayHigh": 3335,
+        "regularMarketPreviousClose": 3290,
+        "exchange": "NasdaqGS"
+      },
+      {
+        "symbol": "NVDA",
+        "shortName": "NVIDIA Corp.",
+        "regularMarketPrice": 220.4,
+        "regularMarketChangePercent": -1.1,
+        "marketCap": 550000000000,
+        "regularMarketDayLow": 218,
+        "regularMarketDayHigh": 225,
+        "regularMarketPreviousClose": 222,
+        "exchange": "NasdaqGS"
+      },
+      {
+        "symbol": "^GSPC",
+        "shortName": "S&P 500",
+        "regularMarketPrice": 4300.5,
+        "regularMarketChangePercent": 0.4,
+        "marketCap": null,
+        "regularMarketDayLow": 4280,
+        "regularMarketDayHigh": 4320,
+        "regularMarketPreviousClose": 4283,
+        "exchange": "INDEX"
+      },
+      {
+        "symbol": "^IXIC",
+        "shortName": "NASDAQ Composite",
+        "regularMarketPrice": 14000.8,
+        "regularMarketChangePercent": -0.6,
+        "marketCap": null,
+        "regularMarketDayLow": 13950,
+        "regularMarketDayHigh": 14120,
+        "regularMarketPreviousClose": 14085,
+        "exchange": "INDEX"
+      }
+    ],
+    "error": null
+  }
+}
