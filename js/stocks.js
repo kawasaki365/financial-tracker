@@ -1,7 +1,7 @@
 const stockList = document.getElementById('stockList');
 const input = document.getElementById('stockInput');
 const addBtn = document.getElementById('addStock');
-const watch = new Set((localStorage.getItem('watchlist')||'TSLA,AAPL,MSFT,GOOGL,AMZN,NVDA').split(','));
+const watch = new Set((localStorage.getItem('watchlist')||'AAPL,MSFT,GOOGL,AMZN,TSLA,NVDA,META,BRK-B,UNH,JNJ').split(','));
 
 addBtn.addEventListener('click', ()=>{
   const v = (input.value||'').trim().toUpperCase();
